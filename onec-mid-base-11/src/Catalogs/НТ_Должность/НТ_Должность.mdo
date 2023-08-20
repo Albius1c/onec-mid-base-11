@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c32a2ebf-4bb1-4e08-8786-0cb76f649f52">
+  <producedTypes>
+    <objectType typeId="f2021684-a4dd-42c7-8717-42f0c26b3266" valueTypeId="8e5b384b-b887-42bc-b2fc-5d88b2a8b45a"/>
+    <refType typeId="a46fce8e-ae22-4ca2-bb59-9e9b21504308" valueTypeId="5bd48b9d-cf22-4324-8990-326212d9e8b3"/>
+    <selectionType typeId="75c00f38-dbd5-447c-9f0c-01f6d408f84c" valueTypeId="cb49c594-72e6-4765-aa21-9c6b66458b4f"/>
+    <listType typeId="4279011f-5d4e-4d56-8afc-a77d32b8c0cb" valueTypeId="10229a20-ba28-4d13-a9e4-908329a236c9"/>
+    <managerType typeId="20877087-431f-43a4-9bae-64c9176fffba" valueTypeId="c12dc5aa-8c4d-48f8-9c31-3c6d96255308"/>
+  </producedTypes>
+  <name>НТ_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НТ_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НТ_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
